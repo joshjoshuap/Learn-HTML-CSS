@@ -1,0 +1,104 @@
+body {
+  background-color: #212121;
+  margin: 0px;
+}
+p {
+  font-family: "Lobster", cursive;
+  line-height: 25px;
+}
+
+/* * * CLASS SELECTOR * * */
+
+.main-container {
+  background-color: white;
+  height: 500px;
+  width: 500px;
+  position: relative;
+}
+
+.container-1 {
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  right: 300px;
+}
+
+.container-2 {
+  background-color: blue;
+  height: 100px;
+  width: 100px;
+}
+
+.container-3 {
+  background-color: black;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  left: 100px;
+}
+
+.container-4 {
+  background-color: orange;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  right: 200px;
+  bottom: 200px;
+}
+
+.container-5 {
+  background-color: yellow;
+  height: 100px;
+  width: 100px;
+  position: fixed;
+  right: 20px;
+}
+
+.container-6 {
+  background-color: green;
+  height: 100px;
+  width: 100px;
+  position: sticky;
+  top: 0;
+}
+
+.desc {
+  font-size: 10px;
+  margin-top: 0px;
+}
+
+.head-title {
+  background-color: #07689f;
+  color: #f0f5f9;
+  font-family: "Indie Flower", cursive;
+  font-weight: normal;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 20px;
+  padding-bottom: 3px;
+  text-align: center;
+}
+
+.head-container {
+  position: sticky;
+  top: 0;
+}
+
+.font-challenge {
+  color: #66bfbf;
+  text-decoration: none;
+}
+
+.font-challenge-2 {
+  color: #66bfbf;
+  font-weight: 500;
+  margin-top: 50px;
+}
+
+.margin-zero-all {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0%;
+}

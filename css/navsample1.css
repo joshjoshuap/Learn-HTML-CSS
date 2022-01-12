@@ -1,0 +1,47 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  line-height: 1.5ms;
+  background-color: white;
+  margin: 0;
+}
+
+.header {
+  background-color: black;
+  color: white;
+  margin: auto;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+  padding: 20px;
+  font-size: 20px;
+  transition: background-color 0.5s, transform 0.5s;
+}
+
+.navbar a:hover {
+  color: white;
+  background-color: black;
+  transform: translateX(10px);
+}
+
+.main {
+  height: 60%;
+  width: 60%;
+}
+
+img.main-pic {
+  height: 900px;
+  width: 100%;
+}
