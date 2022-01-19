@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Navbar */
+.navigation {
+  @apply bg-black text-white text-base md:text-xl font-bold;
+}
+
+.nav-container {
+  @apply flex 
+  justify-between 
+  w-auto
+  mx-auto
+  p-2
+  md:w-10/12
+  md:p-4;
+}
+
+.nav-logo {
+  @apply p-3;
+}
+
+.nav-links {
+  @apply flex justify-center;
+}
+
+.nav-links > li {
+  @apply hover:bg-white hover:text-black p-3 rounded;
+}
+
+/* Heading */
+.heading-container {
+  @apply grid grid-cols-1 gap-5 w-auto mx-auto p-5 md:grid-cols-2 md:gap-0 md:w-10/12 md:p-10;
+}
+
+.heading-title {
+  @apply grid place-items-center text-center text-5xl font-bold md:text-6xl;
+}
+
+/* Articles */
+.articles-container {
+  @apply w-auto mx-auto p-5 md:w-11/12;
+}
+
+.articles {
+  @apply grid grid-cols-1 gap-5 md:grid-cols-3 md:gap-3 lg:grid-cols-4;
+}
+
+.articles-item {
+  @apply bg-gray-300 py-2 px-4 rounded;
+}
+
+.article-title {
+  @apply text-green-800 font-bold text-2xl text-center p-2 md:text-3xl;
+}
+
+.article-desc {
+  @apply py-2 px-1 md:py-3 md:px-5;
+}
+
+/* Contact Container */
+.contact-container {
+  @apply w-auto mx-auto p-5 md:w-11/12;
+}
+
+.contact-title {
+  @apply text-green-800 font-bold text-2xl text-center p-2 md:text-3xl;
+}
+
+.contact-form {
+  @apply grid grid-cols-1 gap-5 w-auto mx-auto md:grid-cols-2 md:w-8/12;
+}
+
+.contact-form > input {
+  @apply bg-gray-100 text-gray-900 h-12 border-l-2 border-black p-2 outline-none rounded;
+}
+
+.contact-form > textarea {
+  @apply col-span-2 bg-gray-100 text-gray-900 border-l-2 border-black p-2 outline-none resize-none rounded;
+}
+
+.contact-form > button {
+  @apply bg-green-800 text-white font-bold p-2 rounded-md w-20;
+}
+
+/* Footer */
+footer {
+  @apply bg-black text-white text-center font-bold p-3;
+}
