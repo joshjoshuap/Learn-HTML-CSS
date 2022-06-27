@@ -1,0 +1,94 @@
+.text-red {
+  color: red;
+}
+
+.text-blue {
+  color: blue;
+}
+
+.text-green {
+  color: green;
+}
+
+.box2 {
+  height: 100px;
+  width: 100px;
+}
+
+.bg-red {
+  background-color: red;
+}
+
+.bg-blue {
+  background-color: blue;
+}
+
+.bg-green {
+  background-color: green;
+}
+
+.container-box {
+  border: 2px solid black;
+  border-radius: 10px;
+  height: auto;
+}
+
+.container-box2 {
+  border: 2px solid black;
+  border-radius: 10px;
+  height: 300px;
+}
+
+.container-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 100px 50px 200px;
+}
+
+.container-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  padding: 10px 20px;
+  margin: 5px 0;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: all 0.7s ease-in-out;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.btn-red {
+  background-color: red;
+}
+
+.btn-red:hover {
+  border: 2px solid red;
+  background-color: white;
+  color: red;
+}
+
+.btn-blue {
+  background-color: blue;
+}
+
+.btn-blue:hover {
+  border: 2px solid blue;
+  background-color: white;
+  color: blue;
+}
+
+.btn-green {
+  background-color: green;
+}
+
+.btn-green:hover {
+  border: 2px solid green;
+  background-color: white;
+  color: green;
+}
