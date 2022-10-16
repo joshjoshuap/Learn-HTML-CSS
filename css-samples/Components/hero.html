@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hero</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: "Source Sans Pro", sans-serif;
+      }
+
+      .header {
+        height: 100vh;
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.473),
+            rgba(0, 0, 0, 0.473)
+          ),
+          url("hero.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        font-weight: 700;
+        color: white;
+      }
+      nav {
+        font-size: 1.5rem;
+        width: 75%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        padding: 40px 0;
+        text-transform: uppercase;
+      }
+      .description-container {
+        width: 75%;
+        margin: 0 auto;
+      }
+      .description {
+        width: 45%;
+        margin-top: 30px;
+      }
+
+      .description > h1 {
+        font-size: 3rem;
+      }
+
+      .description > p {
+        font-size: 1.2rem;
+        line-height: 1.5;
+        margin-bottom: 50px;
+      }
+      .description > a {
+        padding: 20px 30px;
+        background-color: #345b63;
+        text-decoration: none;
+        border-radius: 10px;
+        color: white;
+        font-size: 18px;
+      }
+      .section-1 {
+        background-color: #e8f6ef;
+        width: 100%;
+        margin: 0 auto;
+        padding: 100px 0;
+        height: auto;
+      }
+
+      .section-item {
+        width: 80%;
+        margin: 0 auto;
+      }
+      .title {
+        font-size: 3rem;
+        color: #865439;
+      }
+
+      .section-desc {
+        color: #152d35;
+        font-size: 20px;
+        line-height: 1.5;
+      }
+
+      @media screen and (min-width: 768px) and (max-width: 1106px) {
+        .header {
+          height: auto;
+          padding-bottom: 80px;
+        }
+        .description {
+          width: 80%;
+        }
+      }
+
+      @media screen and (max-width: 767px) {
+        .header {
+          height: auto;
+          padding-bottom: 100px;
+        }
+
+        nav {
+          font-size: 1rem;
+          padding: 20px 0;
+        }
+        .description {
+          width: 100%;
+        }
+        .description > h1,
+        .title {
+          font-size: 2rem;
+        }
+        .description > p,
+        .section-desc {
+          font-size: 1rem;
+        }
+        .description > a {
+          padding: 15px 25px;
+          font-size: 1rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <nav>
+        <span>Logo</span>
+        <span>Navigation</span>
+      </nav>
+      <div class="description-container">
+        <div class="description">
+          <h1>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus,
+            facilis!
+          </h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro
+            magnam architecto eveniet eaque qui, rem voluptates commodi, maxime
+            nihil illum obcaecati quaerat voluptatibus laudantium itaque sint
+            sunt corrupti ipsa iusto.
+          </p>
+          <a href="">Sign Up</a>
+        </div>
+      </div>
+    </div>
+    <div class="section-1">
+      <div class="section-item">
+        <h1 class="title">Welcome</h1>
+        <p class="section-desc">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex veniam et
+          illo corrupti tempore ducimus sunt nisi dicta, harum vero sed nemo,
+          laboriosam quaerat optio ratione soluta! Animi, ex vitae fugiat
+          aspernatur explicabo in. Minus, iusto sint libero numquam amet fugit
+          provident voluptatum reiciendis cumque delectus autem, corrupti eius
+          non.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

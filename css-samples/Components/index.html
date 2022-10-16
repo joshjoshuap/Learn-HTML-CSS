@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Accordion Component</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        font-family: "Montserrat", sans-serif;
+        /* #00adb5 */
+      }
+
+      .container {
+        margin: 100px auto;
+      }
+
+      .accordion {
+        width: 40%;
+        margin: 25px auto;
+        background-color: #fff;
+        padding: 20px;
+        font-size: 1.5rem;
+        box-shadow: 0 0 30px #e6e6e6;
+      }
+
+      .accordion-expand {
+        border-top: 5px solid #2940d3;
+      }
+      .accordion-header {
+        color: #2940d3;
+      }
+
+      .accordion-header > span {
+        margin: 0 1%;
+      }
+
+      .accordion-desc {
+        width: 80%;
+        font-size: 1.1rem;
+        margin: 25px auto;
+      }
+
+      .accordion-number {
+        color: #d5d5d5;
+      }
+
+      ul {
+        color: #5b5656;
+        list-style: square;
+      }
+
+      @media screen and (max-width: 768px) {
+        .accordion {
+          width: 80%;
+          font-size: 1.1em;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="accordion">
+        <div class="accordion-header">
+          <span class="accordion-number">01</span>
+          <span>Where are these chairs assemble??</span>
+        </div>
+      </div>
+
+      <div class="accordion accordion-expand">
+        <div class="accordion-header">
+          <span class="accordion-number">02</span>
+          <span>How long do i have to return my chair?</span>
+        </div>
+
+        <p class="accordion-desc">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, libero
+          voluptate! Libero at, odit itaque veritatis reprehenderit deserunt sit
+          id sint fugiat vel aspernatur a pariatur unde quae atque veniam!
+        </p>
+
+        <ul class="accordion-desc">
+          <li>Lorem ipsum dolor sit amet.</li>
+          <li>Lorem ipsum dolor sit amet consectetur.</li>
+          <li>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt,
+            quidem!
+          </li>
+          <li>Lorem ipsum dolor sit.</li>
+        </ul>
+      </div>
+      <div class="accordion">
+        <div class="accordion-header">
+          <span class="accordion-number">03</span>
+          <span>Do you ship to countries Outside EU?</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

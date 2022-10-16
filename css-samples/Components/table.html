@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+
+        font-family: "Montserrat", sans-serif;
+      }
+      table {
+        margin: 100px auto;
+        width: 90%;
+        border: none;
+        border-collapse: collapse;
+        text-align: left;
+      }
+      thead {
+        background-color: #07a4b5;
+        color: white;
+      }
+
+      td,
+      th {
+        padding: 20px;
+      }
+
+      tbody > tr:nth-child(odd) {
+        background-color: #f9fcfd;
+      }
+      tbody > tr:nth-child(even) {
+        background-color: #dbd8e3;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th>Firstname</th>
+          <th>Lastname</th>
+          <th>Address</th>
+          <th>Age</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Joshua</td>
+          <td>Pautanes</td>
+          <td>QC</td>
+          <td>21</td>
+        </tr>
+
+        <tr>
+          <td>Cuartel</td>
+          <td>Angelo</td>
+          <td>QC</td>
+          <td>69</td>
+        </tr>
+
+        <tr>
+          <td>Canuto</td>
+          <td>Carlson</td>
+          <td>QC</td>
+          <td>100</td>
+        </tr>
+
+        <tr>
+          <td>Galve</td>
+          <td>Jeffree</td>
+          <td>QC</td>
+          <td>00</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
