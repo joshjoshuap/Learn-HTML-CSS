@@ -1,0 +1,56 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.main-header {
+  background-color: #191825;
+  padding: 5rem;
+}
+
+.navigation {
+  font-size: 2.8rem;
+  color: white;
+  width: 50rem;
+  margin: 0 auto;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-item {
+  padding: 1rem;
+}
+
+.nav-item:hover {
+  background-color: white;
+  color: #191825;
+  padding: 1rem;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.heading-section {
+  width: 80%;
+  margin: 5rem auto;
+}
+
+.heading-title {
+  font-size: 9.6rem;
+  text-align: center;
+}
+
+.text-white {
+  color: #f6f1f1;
+}
+
+.text-blue {
+  color: #537fe7;
+}
