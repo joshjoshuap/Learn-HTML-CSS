@@ -1,21 +1,12 @@
 .navbar-bg {
-
-background-color: black;
-   
-
+  background-color: black;
 }
 
 .nav-list {
-
-
-font-size: 25px;
-
+  font-size: 25px;
 }
 
 .nav-logo {
-
-
-margin-top: 7px;
-padding-left: 10px;
-
+  margin-top: 7px;
+  padding-left: 10px;
 }
