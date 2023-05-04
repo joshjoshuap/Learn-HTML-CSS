@@ -1,5 +1,6 @@
 html {
   font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
 }
 
 * {
@@ -9,7 +10,7 @@ html {
 
 .main-header {
   background-color: #191825;
-  padding: 5rem;
+  padding: 5rem 0 1rem 0;
 }
 
 .navigation {
@@ -53,4 +54,60 @@ html {
 
 .text-blue {
   color: #537fe7;
+}
+
+.header-btn_container {
+  display: flex;
+  justify-content: center;
+  margin: 2rem auto;
+}
+
+.header-btn {
+  background-color: #f6f1f1;
+  color: #191825;
+  font-size: 2.2rem;
+  text-decoration: none;
+  padding: 2rem;
+  border: 2px solid transparent;
+  border-radius: 1rem;
+  transition: all 150ms ease-in;
+}
+
+.header-btn:hover {
+  background-color: #191825;
+  color: #f6f1f1;
+  border: 2px solid #f6f1f1;
+  cursor: pointer;
+}
+
+.information-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1.6rem;
+  padding: 5rem;
+}
+
+.about-section {
+  background-color: #99ddcc;
+  padding: 2rem;
+  border: 5px solid transparent;
+  border-radius: 10px;
+  height: auto;
+}
+
+.about-title {
+  color: #2b3467;
+  font-size: 4.8rem;
+  text-align: center;
+}
+
+.about-description {
+  font-size: 1.8rem;
+}
+
+.education-section {
+  background-color: #a4d0a4;
+  padding: 2rem;
+  border: 5px solid transparent;
+  border-radius: 10px;
 }
